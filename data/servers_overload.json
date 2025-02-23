@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Server overload",
+      "title": "or"
+    },
+    {
+      "id": 1,
+      "label": "Server configuration error",
+      "title": "0.15"
+    },
+    {
+      "id": 2,
+      "label": "Poor app optimization",
+      "title": "0.10"
+    },
+    {
+      "id": 3,
+      "label": "Bad load balancing",
+      "title": "0.001"
+    }
+  ],
+  "edges": [
+    {
+      "from": 0,
+      "to": 1
+    },
+    {
+      "from": 0,
+      "to": 2
+    },
+    {
+      "from": 0,
+      "to": 3
+    }
+  ]
+}

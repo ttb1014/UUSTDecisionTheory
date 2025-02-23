@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Lack of experienced specialists",
+      "title": "or"
+    },
+    {
+      "id": 1,
+      "label": "High turnover in tech department",
+      "title": "0.3"
+    },
+    {
+      "id": 2,
+      "label": "Bad training system",
+      "title": "0.1"
+    },
+    {
+      "id": 3,
+      "label": "Hiring delays",
+      "title": "0.001"
+    }
+  ],
+  "edges": [
+    {
+      "from": 0,
+      "to": 1
+    },
+    {
+      "from": 0,
+      "to": 2
+    },
+    {
+      "from": 0,
+      "to": 3
+    }
+  ]
+}

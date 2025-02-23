@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "label": "DB drop",
+      "title": "and"
+    },
+    {
+      "id": 1,
+      "label": "Network failure",
+      "title": "or"
+    },
+    {
+      "id": 2,
+      "label": "Query code error",
+      "title": "or"
+    },
+    {
+      "id": 3,
+      "label": "DB overload",
+      "title": "0.2"
+    },
+    {
+      "id": 4,
+      "label": "Incorrect transactions handling",
+      "title": "0.5"
+    },
+    {
+      "id": 5,
+      "label": "Bad caching",
+      "title": "0.5"
+    },
+    {
+      "id": 6,
+      "label": "Bad caching",
+      "title": "0.5"
+    }
+  ],
+  "edges": [
+    {
+      "from": 0,
+      "to": 1
+    },
+    {
+      "from": 0,
+      "to": 2
+    },
+    {
+      "from": 1,
+      "to": 3
+    },
+    {
+      "from": 1,
+      "to": 4
+    },
+    {
+      "from": 2,
+      "to": 5
+    },
+    {
+      "from": 2,
+      "to": 6
+    }
+  ]
+}
